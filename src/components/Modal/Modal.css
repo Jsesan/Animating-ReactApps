@@ -17,7 +17,15 @@
   animation: openModal 400ms ease-out forwards;
 }
 .ModalClose {
-  animation: closeModal 400ms ease-out forwards;
+  animation: closeModal 1000ms ease-out forwards;
+}
+
+.fade-slide-enter-active {
+  animation: openModal 400ms ease-out forwards;
+}
+
+.fade-slide-exit-active {
+  animation: closeModal 1000ms ease-out forwards;
 }
 
 @keyframes openModal {
